@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.des_lev h4,.post_info h4, .post_info h2{
+	font-family: 'Open Sans', sans-serif; 
+	text-transform: uppercase;
+}
+.des_lev h4.first{
+	margin-top: 0px;
+}
+.des_lev h4 span{
+padding-top: 2px;
+color: #0d80c4;
+}
+.post_info > h4 {
+  color: #0d80c4;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+.post_info > h2 {
+  color: #fff;
+  margin-top:0px;
+
+}
+.post_info{
+	padding-left: 25px;
+}
+.head_top{
+	background-color: #0d80c4;
+}
+.top_info{
+	color: #FFF;
+}
+.top_info > ul {
+  list-style: outside none none;
+  padding: 0px;
+}
+.top_info > ul > li {
+  display: inline;
+}
+.top_info > ul > li > a {
+  color: #FFF;
+  margin-right: 30px;
+}
+.top_info > ul > li > a:hover{
+  text-decoration: none;
+}
+/*Content*/
+
+.post_left {
+  position: relative;
+}
+.post_info {
+  background-color: #000000;
+  bottom: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+}
+.post_right {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.port_row{
+	margin-bottom: 20px;
+}
+/*Footer*/
+.site_bottom{
+	background-color: #333333;	
+	border-top: 1px solid #c6c6c6; 
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.f_b_r h3 {
+color: #fff;
+}
+.f_b_r p, .f_b_r address{
+ color: #999;
+}
+.f_b_r strong {
+  color: #fff;
+}
+.f_b_r ul{
+  padding-left: 0px;
+}
+.f_b_r ul li a, .fa-chevron-right{
+   color: #999;
+}
+.f_b_r ul li a:hover{
+   color: #FFF;
+   text-decoration: none;
+}
+.f_b_r i {
+  font-size: 10px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.twitter_box::before {
+  border-bottom-color: transparent !important;
+  border-left: 8px solid #404040;
+  border-right-color: transparent !important;
+  border-style: solid outset outset solid;
+  border-top: 8px solid #404040;
+  border-width: 8px;
+  bottom: 28px;
+  content: "";
+  display: block;
+  left: 34px;
+  position: absolute;
+  width: 0;
+}
+.twitter_box::before {
+  border-bottom-color: transparent !important;
+  border-left: 8px solid #404040;
+  border-right-color: transparent !important;
+  border-style: solid outset outset solid;
+  border-top: 8px solid #404040;
+  border-width: 8px;
+  bottom: 28px;
+  content: "";
+  display: block;
+  left: 34px;
+  position: absolute;
+  width: 0;
+}
+.twitter_box {
+  background: #404040 none repeat scroll 0 0;
+  border-radius: 6px;
+  height: 40px;
+  margin-right: 5%;
+}
+

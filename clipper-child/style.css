@@ -1,0 +1,234 @@
+/*
+Theme Name:     Clipper Child Theme
+Theme URI:    
+Author:         Your name here
+Theme URI:   
+Template:       clipper
+Version:        4.0.9
+*/
+.clearfix:before,
+.clearfix:after
+ {
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
+#wrapper {
+ background:none!important;
+}
+body {
+  background: #FFFFFF!important; 
+}
+#header {
+  background: none!important;
+}
+.content_title{background-color: #484848;clear: both;border-bottom:5px solid #4db3b3;margin-bottom:25px;}
+.header_nav,.header_top{background-color: #484848;clear: both;min-height: 53px;border-bottom:5px solid #4db3b3;}
+#header .search-box { 
+  margin: 6px 0;
+  width: 480px;
+}
+#nav {  
+  padding: 5px 0 0 10px;
+  }
+  #header .search-box .holder {
+  background: none!important;
+}
+#header .search-box .holder {
+  border-radius: 0;
+  height: 1%;
+  overflow: hidden;
+  padding: 3px 0 0;
+}
+#nav {
+  margin-top: 10px; 
+}
+#nav li {
+  background: none!important;
+  border-right: 3px solid #fff;
+  border-radius:0;
+  height: auto;
+}
+#nav li:last-child{border-right:0;}
+#nav li.active a {
+  color: #fff;
+  font-weight: bold;
+  height: auto;
+}
+#nav li:hover {
+  margin-top: 0;  
+}
+#nav li a {
+  
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+  height: 0;
+  padding: 0;
+  text-align: left;  
+  text-shadow: 0;
+  }
+  #header .search-box .text {
+  background: #ffffff;
+  border: 1px solid #4db3b3;
+  border-radius: 0;
+  float: left;
+  margin: 0 0px 0 0;
+  overflow: hidden;
+  width: 388px;
+}
+#header .search-box .text input {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #4db3b3;
+  font-size: 18px;
+  margin: 0 0 0 15px;
+  padding: 3px 5px;
+  text-align: left;
+  width: 94%;
+}
+#logo {
+  float: left;
+  overflow: hidden;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+#logo a, #logo img {
+  display: inline;
+}
+#header .search-box .btn-submit {
+  background: rgba(0, 0, 0, 0) url("images/ers.png") no-repeat scroll 0 0 !important;
+  height: 33px;
+  width: 33px;
+}
+/*#header .search-box .btn-submit {
+ background: url("../images/btn-submit-transparent.png");
+}*/
+#footer .bar {
+  background: #484848!important;
+}
+ #footer .bar-holder p {
+  font-size: 14px;
+  margin: 0;
+}
+.cpn_ln { 
+  float: left;
+  margin-right: 10px;
+  min-height: 120px;
+  position: relative;
+  width: 32%;
+}
+.cpn_ln:last-child{margin-right: 0px;}
+.cpn_bdy{background-color: #31415a;border-radius: 5px;padding: 10px;margin-bottom: 25px;color: #FFF;}
+.content_title h4 {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+
+.st_logo_img{width: 45%;float: left;text-align: center;padding:5px;margin-right: 5px 0px}
+
+.cpn_bdy_img{width:20%; float: left;}
+.cpn_bdy_con {
+  float: left;
+  margin: 0 15px;
+  width: 55%;
+}
+.cpn_bdy_con h4{
+  margin-bottom:10px;
+}
+.cpn_bdy_con h4 a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cpn_bdy_rimg{width:20%;float:left;position:relative;}
+.see_coup {
+  position: absolute;
+  top: -43px;
+}
+.img_bx a img{
+max-width:99%;
+border-radius:5px;
+}
+.cpn_img_des {
+  background: #777777 none repeat scroll 0 0;
+  bottom: 4px;
+  opacity: 0.7;
+  padding: 10px;
+  position: absolute;
+  width: 93%;
+}
+.img_des_img {
+  float: left;
+  width: 40%;
+}
+.img_des_title {
+  float: left;
+  width: 60%;
+}
+.img_des_title {
+  color: #fff;
+}
+.top_custome_cupone {
+  margin-bottom: 10px;
+  width: 100% !important;
+}
+.cpn_wrp.frame {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.paging > .pages > .total,.paging > .pages > a.prev,.paging > .pages > a.next {
+  display: none;
+}
+.paging > .pages{
+  text-align: center;
+}
+.paging > .pages > .page-numbers{
+  border:1px solid #000;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #000;
+  border-radius: 5px;
+  margin-right:10px;
+  text-decoration: none;
+}
+.paging > .pages > .current{
+	font-weight: bold;
+}
+.top{display: none;}
+#header .search-box {
+  width: 325px;
+}
+#header .search-box .text {
+   width: 270px;
+}
+.ins_text {
+  border: 1px solid #484848;
+  padding: 10px;
+}
+
+.main_cup_des {
+  border: 1px solid #484848;
+  margin-bottom: 20px;
+}
+.ins_left {
+  float: left;
+  padding: 5px;
+  width: 40%;
+}
+.ins_right {
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+  width: 55%;
+   border: 1px solid #484848;
+   margin: 10px 0px;
+}
+
